@@ -1,10 +1,10 @@
 import React from "react";
-function alertMsg()
+const alertMsg=()=>
 {
     alert("The alert message");
     console.log("message to developer");
 }
-function App()
+const App=()=>
 {
     return(
         <div className="App">
